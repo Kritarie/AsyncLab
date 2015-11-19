@@ -1,6 +1,6 @@
 package com.example.asynclab;
 
-public class DataRepository implements Repository<String> {
+public final class DataRepository implements Repository<String> {
 
     static {
         sInstance = new DataRepository();
